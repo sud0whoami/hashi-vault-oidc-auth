@@ -1,9 +1,6 @@
 # OIDC Authentication Flow for HashiCorp Vault, using Go
 This project initiates an OIDC authentication flow with HashiCorp Vault. It sets up a local web server to handle the OIDC callback and exchanges the authorization code for a Vault token. Its implementation is similar to how HashiCorp Vault's CLI handles OIDC authentication, but it's written entirely in Go and can be easily integrated into other Go applications.
 
-## Intitial Setup
-```go mod init <module-name> && go mod tidy```
-
 ## Usage
 ### Command-Line Flags
 - `DEBUG`: Enable debug logging. Default is false.
